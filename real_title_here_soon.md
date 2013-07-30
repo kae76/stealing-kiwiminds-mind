@@ -5,31 +5,31 @@ sudo available
 * drush available
 Using nano as text editor (I don't understand vim)
 * Website hosting directory is /var/www
-Site structure will be
-/var
-/www
-/example.com
-/www
-/db
+Site structure will be  
+/var  
+\- /www  
+-- /example.com  
+--- /www  
+--- /db  
 
 
-Create database and user and give correct permissions  
-Download codebase (drupal, installation profile, etc)  
-Ensure correct file permissions on files  
-Create new apache config file  
-Edit /etc/hosts file so that specified URL is served locally  
-Enable site in apache  
-Restart apache for changes to take place  
-Install site  
-Import existing DB  
-New site  
-Housekeeping  
+Create database and user and give correct permissions
+Download codebase (drupal, installation profile, etc)
+Ensure correct file permissions on files
+Create new apache config file
+Edit /etc/hosts file so that specified URL is served locally
+Enable site in apache
+Restart apache for changes to take place
+Install site
+Import existing DB
+New site
+Housekeeping
 
 1. Create database
 ```
 mysql -u root -p
-mysql > create database example.com;
-mysql > GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER,  LOCK TABLES, CREATE TEMPORARY TABLES ON `databasename`.* TO  'username'@'localhost' IDENTIFIED BY 'password'; 
+mysql> create database example.com;
+mysql> GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER,  LOCK TABLES, CREATE TEMPORARY TABLES ON `databasename`.* TO  'username'@'localhost' IDENTIFIED BY 'password'; 
 // you could grant all, but this is from https://drupal.org/documentation/install/create-database
 ```
 
