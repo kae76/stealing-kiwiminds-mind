@@ -1,6 +1,6 @@
 Notes pulled together across IRC channel #drupal-uk & http://openetherpad.org/p/kae76_sapping_kiwiminds..mind
 
-[Kiwimind](https://github.com/kiwimind)
+[Kiwimind](https://github.com/kiwimind) <-- is the master mind!
 
 Caveat ...A work in progress... use with care!
 
