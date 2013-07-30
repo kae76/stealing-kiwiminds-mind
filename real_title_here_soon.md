@@ -1,6 +1,8 @@
-Notes pulled together across IRC channel #drupal-uk ... http://openetherpad.org/p/kae76_sapping_kiwiminds..mind
+Notes pulled together across IRC channel #drupal-uk & http://openetherpad.org/p/kae76_sapping_kiwiminds..mind
 
-Kiwimind (aka Glenn Barr
+[Kiwimind](https://github.com/kiwimind)
+
+Caveat ...A work in progress... use with care!
 
 ####Assumptions
 * LAMP stack is up and running
