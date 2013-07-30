@@ -46,7 +46,7 @@ mv drupal-7.22 example.com/www
 
 3. Ensure correct file permissions on files
 // I have a script that I run to achieve this. It may not need to be done, depending on your setup. https://gist.github.com/kiwimind/6113953
-`sudo bash /path/to/fix-perms.sh --drupal_path=/var/www/example.com/www --drupal_user=karen`
+`sudo bash /path/to/fix-perms.sh --drupal_path=/var/www/example.com/www --drupal_user=karen`  
 // ^ use the user that you're logged in to your VM as
 
 4. Create new apache config file
