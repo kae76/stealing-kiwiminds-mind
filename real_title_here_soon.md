@@ -99,7 +99,7 @@ _6.1 Restart apache for changes to take place_
 `sudo /etc/init.d/apache2 restart`  
 
 _7. Install site_  
-7.1 Import existing DB  
+_7.1 Import existing DB_  
 // Edit sites/default/settings.php to enter your database credentials  
 `drush sqlc < your_db_dump.sql`  
 _7.2 New site_  
@@ -114,5 +114,4 @@ _7.2 New site_
 --account-mail=your_admin_login@mailaccount.com
 ```
 // Also possible to specify site name, site email address etc. More details at http://drush.ws/#site-install
-
 // Check your new site! dev.example.com
