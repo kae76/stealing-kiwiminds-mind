@@ -9,7 +9,7 @@ Caveat ...A work in progress... use with care!
 sudo available
 * MySQL root credentials available (or enough credentials to create databases and users)
 * drush available
-Using nano as text editor (I don't understand vim)
+* Using nano as text editor
 * Website hosting directory is /var/www
 Site structure will be  
 /var  
@@ -18,8 +18,9 @@ Site structure will be
 --- /www  
 --- /db  
 
+
 TOC: *note to link up later*
----
+
 1. Create database and user and give correct permissions
 2. Download codebase (drupal, installation profile, etc)
 3. Ensure correct file permissions on files
@@ -31,8 +32,9 @@ TOC: *note to link up later*
  7.1 Import existing DB  
  7.2 New site  
 8. Housekeeping
----
+
 1. Create database
+
 ```
 mysql -u root -p
 mysql> create database example.com;
