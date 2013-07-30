@@ -1,4 +1,8 @@
-###Assumptions
+Notes pulled together across IRC channel #drupal-uk ... http://openetherpad.org/p/kae76_sapping_kiwiminds..mind
+
+Kiwimind (aka Glenn Barr
+
+####Assumptions
 * LAMP stack is up and running
 sudo available
 * MySQL root credentials available (or enough credentials to create databases and users)
@@ -12,19 +16,20 @@ Site structure will be
 --- /www  
 --- /db  
 
-
-Create database and user and give correct permissions
-Download codebase (drupal, installation profile, etc)
-Ensure correct file permissions on files
-Create new apache config file
-Edit /etc/hosts file so that specified URL is served locally
-Enable site in apache
-Restart apache for changes to take place
-Install site
-Import existing DB
-New site
-Housekeeping
-
+TOC: *note to link up later*
+---
+1. Create database and user and give correct permissions
+2. Download codebase (drupal, installation profile, etc)
+3. Ensure correct file permissions on files
+4. Create new apache config file
+5. Edit /etc/hosts file so that specified URL is served locally
+6. Enable site in apache  
+ 6.1 Restart apache for changes to take place
+7. Install site  
+ 7.1 Import existing DB  
+ 7.2 New site  
+8. Housekeeping
+---
 1. Create database
 ```
 mysql -u root -p
