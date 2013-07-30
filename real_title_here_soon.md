@@ -1,4 +1,4 @@
-Assumptions
+###Assumptions
 * LAMP stack is up and running
 sudo available
 * MySQL root credentials available (or enough credentials to create databases and users)
