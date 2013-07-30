@@ -45,7 +45,8 @@ mkdir db
 mv drupal-7.22 example.com/www
 
 3. Ensure correct file permissions on files
-// I have a script that I run to achieve this. It may not need to be done, depending on your setup. I'll put the script somewhere and link to it.[link here]
+// I have a script that I run to achieve this. It may not need to be done, depending on your setup. https://gist.github.com/kiwimind/6113953
+sudo bash /path/to/fix-perms.sh --drupal_path=/var/www/example.com/www --drupal_user=karen // <= use the user that you're logged in to your VM as
 
 4. Create new apache config file
 cd /etc/apache2/sites-available
@@ -70,16 +71,18 @@ RewriteEngine On
 // Either
 sudo a2ensite sitename.conf // use name as created in step 4.
 // Or
+```
 cd /etc/apache2/sites-enabled
 sudo ln -s ../sites-available/sitename.conf
+```
 
 6.1 Restart apache for changes to take place
 // Sometimes a reload is enough, but restart on dev box makes no difference
 // 2 ways of doing this
 // Either
-sudo service apache2 restart
+`sudo service apache2 restart`
 // Or
-sudo /etc/init.d/apache2 restart
+`sudo /etc/init.d/apache2 restart`
 
 7. Install site
 7.1 Import existing DB
