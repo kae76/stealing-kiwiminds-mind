@@ -1,4 +1,4 @@
-Assumptions
+###Assumptions
 * LAMP stack is up and running
 sudo available
 * MySQL root credentials available (or enough credentials to create databases and users)
@@ -13,17 +13,17 @@ Site structure will be
 /db
 
 
-Create database and user and give correct permissions
-Download codebase (drupal, installation profile, etc)
-Ensure correct file permissions on files
-Create new apache config file
-Edit /etc/hosts file so that specified URL is served locally
-Enable site in apache
-Restart apache for changes to take place
-Install site
-Import existing DB
-New site
-Housekeeping
+Create database and user and give correct permissions  
+Download codebase (drupal, installation profile, etc)  
+Ensure correct file permissions on files  
+Create new apache config file  
+Edit /etc/hosts file so that specified URL is served locally  
+Enable site in apache  
+Restart apache for changes to take place  
+Install site  
+Import existing DB  
+New site  
+Housekeeping  
 
 1. Create database
 ```
